@@ -1,0 +1,57 @@
+body{
+    margin:0px;
+    background-color: #2d2d2d;
+}
+
+header{
+    background-color: aqua;
+    padding:0px;
+}
+div{
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+#main-container{
+    /*height: 2000px;*/
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+}
+
+#content-div{
+
+}
+
+#feat-div{
+    align-items: center;
+}
+
+#prevProj-div{
+    align-items: center;
+}
+
+#info-div{
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+footer{
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: aquamarine;
+}
